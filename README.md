@@ -1,62 +1,60 @@
 # Christopher Anaya
 
-AI Engineer focused on building production systems around large language models.
+AI Engineer (Backend/Platform, LLM Systems) focused on building production-style AI services with explicit API contracts, eval-to-policy controls, and reliability-first operations.
 
-I build AI systems that combine machine learning models with reliable software infrastructure.
+I build AI systems that combine machine learning models with maintainable software infrastructure and reviewer-fast proof artifacts.
 
-My work focuses on:
+## Focus Areas
 
 - LLM inference APIs
-- Structured extraction systems
+- Structured extraction and capability gating
 - Model evaluation pipelines
+- Reliability testing and CI
 - Observability for ML services
 
-## Featured Project
+## Flagship Project
 
 ### LLM Extraction Platform
 
-An open-source platform for deploying large language model services with structured extraction capabilities.
+Open-source platform for deploying LLM services with schema-driven extraction and policy-enforced runtime controls.
 
-Key features:
-
-- FastAPI-based inference service
-- Schema-driven structured extraction
-- Evaluation-driven capability gating
-- Support for Transformers and llama.cpp runtimes
+- FastAPI inference service for generate/extract
+- Eval-driven capability gating
+- Deterministic proof artifacts (PASS/FAIL manifests)
+- Support for Transformers and llama.cpp
 - Observability with Prometheus metrics
 
-Repository:  
+Repository:
 https://github.com/chranama/llm-extraction-platform
 
-## Research
+Case Study:
+https://chranama.github.io/case-study-extract-gating.html
 
-### Biomedical Question Answering with LLMs
+## Supporting Projects
 
-Research on domain adaptation of open-source large language models for biomedical question answering.
+### BioLLM-Finetune
 
-This work formed the basis of the CLEF BioASQ publication:
+Experiment-first biomedical QA infrastructure for deterministic robustness evaluation and phenotype-aware analysis.
 
-**LLM Fine-Tuning With Biomedical Open-Source Data**
-
-Repository:  
+Repository:
 https://github.com/chranama/biollm-finetune
 
-## Technologies
+Case Study:
+https://chranama.github.io/case-study-biollm-robustness.html
 
-- Python
-- Transformers
-- FastAPI
-- llama.cpp
-- Docker
-- Prometheus
-- Natural Language Processing
-- Machine Learning
+### California-Portugal Climate Pipeline
 
-## Links
+End-to-end climate data and ML platform with layered dbt transforms, Prefect orchestration, and tested anomaly features.
 
-Portfolio: https://chranama.github.io  
+Repository:
+https://github.com/chranama/california-portugal-climate
+
+Case Study:
+https://chranama.github.io/case-study-climate-anomaly-pipeline.html
+
+## Recruiter-Fast Links
+
+Portfolio home: https://chranama.github.io
+Proof portfolio: https://chranama.github.io/proof-portfolio.html
+Recruiter brief: https://chranama.github.io/recruiter-brief.html
 LinkedIn: https://www.linkedin.com/in/chris-anaya-ai/
-
-## System Architecture
-
-![LLM Platform Architecture](architecture.png)
