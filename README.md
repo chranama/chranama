@@ -52,12 +52,6 @@ https://github.com/chranama/california-portugal-climate
 Case Study:
 https://chranama.github.io/case-study-climate-anomaly-pipeline.html
 
-## Proof Snapshot
-
-| LLM Extraction Platform | BioLLM-Finetune | Climate Pipeline |
-|---|---|---|
-| [![LLM Extraction Platform proof snapshot](https://chranama.github.io/assets/media/llm-extract-gate-pass-fail-social.png)](https://chranama.github.io/case-study-extract-gating.html) | [![BioLLM-Finetune proof snapshot](https://chranama.github.io/assets/media/biollm-robustness-delta-social.png)](https://chranama.github.io/case-study-biollm-robustness.html) | [![Climate pipeline proof snapshot](https://chranama.github.io/assets/media/climate-baseline-metrics-panel-social.png)](https://chranama.github.io/case-study-climate-anomaly-pipeline.html) |
-
 ## Recruiter-Fast Links
 
 Portfolio home: https://chranama.github.io
