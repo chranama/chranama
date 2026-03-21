@@ -4,6 +4,8 @@ Early-Career AI Platform Engineer for Reliable LLM Systems.
 
 I build reliable LLM systems through backend APIs, evaluation-informed controls, observability, and maintainable software infrastructure.
 
+My current work as an Independent AI Platform Engineer is public, non-client open-source engineering focused on AI backend, platform, and runtime systems.
+
 ## Focus Areas
 
 - LLM platform APIs
