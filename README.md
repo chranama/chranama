@@ -1,25 +1,25 @@
 # Christopher Anaya
 
-Early-Career AI Platform Engineer for Reliable LLM Systems.
+Early-career engineer building reliable AI backend, platform, and workflow systems.
 
-I build reliable LLM systems through backend APIs, evaluation-informed controls, observability, and maintainable software infrastructure.
+I build inspectable AI-enabled software through backend APIs, service boundaries, evaluation-informed controls, observability, and maintainable infrastructure.
 
 My current work as an Independent AI Platform Engineer is public, non-client open-source engineering focused on AI backend, platform, and runtime systems.
 
 ## Focus Areas
 
-- LLM platform APIs
+- AI backend and workflow systems
 - Inference gateways and service boundaries
 - Structured extraction and capability gating
-- Model evaluation pipelines
 - Reliability testing and CI
-- Observability for ML services
+- Observability for model-serving systems
+- Product-minded platform engineering
 
 ## Flagship Project
 
 ### LLM Extraction Platform
 
-Open-source platform for deploying LLM services with schema-driven extraction and policy-enforced runtime controls.
+Open-source platform for deploying LLM services with schema-driven extraction, capability gating, and inspectable runtime behavior.
 
 - FastAPI inference service for generate/extract
 - Eval-driven capability gating
@@ -31,7 +31,7 @@ Repository:
 https://github.com/chranama/llm-extraction-platform
 
 Case Study:
-https://chranama.github.io/case-study-extract-gating.html
+https://chranama.github.io/case-study-llm-extraction-platform.html
 
 ## Supporting Projects
 
@@ -41,6 +41,9 @@ Production-style inference edge gateway in Go focused on health/readiness semant
 
 Repository:
 https://github.com/chranama/inference-serving-gateway
+
+Case Study:
+https://chranama.github.io/case-study-inference-serving-gateway.html
 
 ### BioLLM-Finetune
 
