@@ -1,31 +1,30 @@
 # Christopher Anaya
 
-Early-career engineer building reliable AI backend, platform, and workflow systems.
+Early-career Python engineer building reliable AI systems, evaluation tooling, and backend workflows.
 
-I build inspectable AI-enabled software through backend APIs, service boundaries, evaluation-informed controls, observability, and maintainable infrastructure.
+I build public open-source systems that make model-backed software easier to inspect, verify, and operate through backend APIs, structured validation, automated checks, capability gating, observability, and reproducible proof artifacts.
 
-My current work as an Independent AI Platform Engineer is public, non-client open-source engineering focused on AI backend, platform, and runtime systems.
+My current work is public, non-client open-source engineering focused on AI evaluation, backend runtime systems, and proof-oriented verification.
 
 ## Focus Areas
 
-- AI backend and workflow systems
-- Inference gateways and service boundaries
-- Structured extraction and capability gating
-- Reliability testing and CI
-- Observability for model-serving systems
-- Product-minded platform engineering
+- Python for AI systems and evaluation tooling
+- Structured validation, automated checks, and capability gating
+- Backend APIs, async workflows, and runtime boundaries
+- Observability, failure analysis, and reproducible proof artifacts
+- Biomedical QA robustness evaluation
+- Public open-source engineering with inspectable system behavior
 
 ## Flagship Project
 
 ### LLM Extraction Platform
 
-Open-source platform for deploying LLM services with schema-driven extraction, capability gating, and inspectable runtime behavior.
+Open-source platform for model-backed extraction workflows with schema contracts, capability-gated checks, PASS/FAIL proof artifacts, and inspectable runtime behavior.
 
-- FastAPI inference service for generate/extract
-- Eval-driven capability gating
-- Deterministic proof artifacts (PASS/FAIL manifests)
-- Support for Transformers and llama.cpp
-- Observability with Prometheus metrics
+- FastAPI `/generate` and `/extract` services
+- Capability gating and deterministic PASS/FAIL evidence
+- Async workflow boundaries and worker/runtime separation
+- Prometheus-backed observability and operational inspection
 
 Repository:
 https://github.com/chranama/llm-extraction-platform
@@ -35,19 +34,9 @@ https://chranama.github.io/case-study-llm-extraction-platform.html
 
 ## Supporting Projects
 
-### Inference Serving Gateway
-
-Production-style inference edge gateway in Go focused on health/readiness semantics, request limits, forwarding, timeouts, and observability for model-serving backends.
-
-Repository:
-https://github.com/chranama/inference-serving-gateway
-
-Case Study:
-https://chranama.github.io/case-study-inference-serving-gateway.html
-
 ### BioLLM-Finetune
 
-Experiment-first biomedical QA infrastructure for deterministic robustness evaluation and phenotype-aware analysis.
+Experiment-first biomedical QA infrastructure for robustness evaluation, controlled comparison, and model-failure analysis.
 
 Repository:
 https://github.com/chranama/biollm-finetune
@@ -55,9 +44,19 @@ https://github.com/chranama/biollm-finetune
 Case Study:
 https://chranama.github.io/case-study-biollm-robustness.html
 
+### Inference Serving Gateway
+
+Production-style inference gateway in Go focused on health/readiness semantics, request limits, forwarding, timeouts, and observability for model-serving backends.
+
+Repository:
+https://github.com/chranama/inference-serving-gateway
+
+Case Study:
+https://chranama.github.io/case-study-inference-serving-gateway.html
+
 ### California-Portugal Climate Pipeline
 
-End-to-end climate data and ML platform with layered dbt transforms, Prefect orchestration, and tested anomaly features.
+End-to-end data and ML pipeline with layered dbt transforms, Prefect orchestration, tested anomaly features, and reproducible outputs.
 
 Repository:
 https://github.com/chranama/california-portugal-climate
@@ -65,7 +64,7 @@ https://github.com/chranama/california-portugal-climate
 Case Study:
 https://chranama.github.io/case-study-climate-anomaly-pipeline.html
 
-## Recruiter-Fast Links
+## Proof Links
 
 Portfolio home: https://chranama.github.io
 Proof portfolio: https://chranama.github.io/proof-portfolio.html
