@@ -2,7 +2,7 @@
 
 Early-career software engineer building reliable AI systems, evaluation tooling, and backend workflows.
 
-My current work is public, non-client open-source engineering focused on AI evaluation, backend runtime systems, and proof-oriented verification.
+I build public open-source projects that make AI-backed software easier to use, test, and inspect.
 
 ## Academic Background
 
@@ -12,48 +12,56 @@ My current work is public, non-client open-source engineering focused on AI eval
 
 ## Skills
 
-- Python AI backends and evaluation tooling
-- Contract-driven validation, schema enforcement, and runtime policy gates
-- Backend API design, async job workflows, and service-boundary architecture
-- Operational observability, trace inspection, and reproducible proof artifacts
-- LLM robustness evaluation and model-failure analysis, including biomedical QA
-- Open-source systems engineering with CI, documentation, and reviewer-ready evidence
+- Python, Go, TypeScript/React, SQL/Postgres
+- FastAPI, REST APIs, async workflows, structured errors
+- Docker, Kubernetes, Redis, Linux, CI/CD
+- LLM evaluation, schema-constrained extraction, model behavior analysis
+- Prometheus/Grafana, trace inspection, reproducible proof artifacts
 
 ## Flagship Project
 
 ### LLM Extraction Platform
 
-Open-source platform for model-backed workflows to extract structured data from natural language. Currently trained and evaluated on receipts corpus (https://huggingface.co/datasets/Voxel51/scanned_receipts). Implements schema contracts, capability-gated checks, PASS/FAIL proof artifacts, and inspectable runtime behavior.
+Open-source backend that helps developers turn natural-language inputs into structured data with API contracts and runtime checks instead of prompt-only behavior. Current proof workflows use scanned receipt extraction as a concrete test case.
 
 - FastAPI `/generate` and `/extract` services
+- Sync and async extraction workflows
 - Capability gating and deterministic PASS/FAIL evidence
-- Async workflow boundaries and worker/runtime separation
-- Prometheus-backed observability and operational inspection
+- Prometheus-backed observability and trace inspection
 
 Repository:
 https://github.com/chranama/llm-extraction-platform
 
 ## Supporting Projects
 
+### Inference Serving Gateway
+
+Go gateway that gives AI product APIs a controlled service boundary in front of upstream inference backends.
+
+- Health/readiness checks, metrics, sync/async extraction, and job-status endpoints
+- Request limits, timeouts, structured errors, Prometheus metrics, and trace propagation
+
+Repository:
+https://github.com/chranama/inference-serving-gateway
+
 ### BioLLM-Finetune
 
-Experiment-first biomedical QA infrastructure for robustness evaluation, controlled comparison, and model-failure analysis.  Created to evaluate model fine-tuning for QA tasks.
+Biomedical QA evaluation system that helps researchers compare model behavior across clean and perturbed inputs.
+
+- Fixed-seed robustness analysis
+- Phenotype-conditioned aggregation
+- Integrity validation and scripted report artifacts
 
 Repository:
 https://github.com/chranama/biollm-finetune
 
 
-### Inference Serving Gateway
-
-Production-style inference gateway in Go focused on health/readiness semantics, request limits, forwarding, timeouts, and observability for model-serving backends. Provides a runtime boundary between product APIs and upstream inference services.
-
-Repository:
-https://github.com/chranama/inference-serving-gateway
-
-
 ### California-Portugal Climate Pipeline
 
-End-to-end data and ML pipeline with layered dbt transforms, Prefect orchestration, tested anomaly features, and reproducible outputs.  Compares the climates of California and Portugal.
+Warehouse-first climate data and ML platform for comparing weather patterns across California and Portugal.
+
+- DuckDB warehouse, layered dbt transforms, and Prefect orchestration
+- Tested anomaly features, persisted metrics, and dashboard-ready outputs
 
 Repository:
 https://github.com/chranama/california-portugal-climate
@@ -62,4 +70,5 @@ https://github.com/chranama/california-portugal-climate
 ## Links
 
 Portfolio home: https://chranama.github.io
+Resume: https://chranama.github.io/resume.pdf
 LinkedIn: https://www.linkedin.com/in/chris-anaya-ai/
