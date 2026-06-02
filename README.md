@@ -18,7 +18,7 @@ I build public open-source projects that make AI-backed software easier to use, 
 - LLM evaluation, schema-constrained extraction, model behavior analysis
 - Prometheus/Grafana, trace inspection, reproducible proof artifacts
 
-## Flagship Project
+## Open Source Projects
 
 ### LLM Extraction Platform
 
@@ -31,8 +31,6 @@ Open-source backend that helps developers turn natural-language inputs into stru
 
 Repository:
 https://github.com/chranama/llm-extraction-platform
-
-## Supporting Projects
 
 ### Inference Serving Gateway
 
