@@ -4,69 +4,65 @@ Early-career software engineer building reliable AI systems, evaluation tooling,
 
 I build public open-source projects that make AI-backed software easier to use, test, and inspect.
 
-## Skills
-
-- Python, Go, TypeScript/React, SQL/Postgres
-- FastAPI, REST APIs, async workflows, structured errors
-- Docker, Kubernetes, Redis, Linux, CI/CD
-- LLM evaluation, schema-constrained extraction, model behavior analysis
-- Prometheus/Grafana, trace inspection, reproducible proof artifacts
-
 ## Open Source Projects
 
 ### LLM Extraction Platform
 
-Open-source backend that helps developers turn natural-language inputs into structured data with API contracts and runtime checks around model outputs. Uses scanned receipt extraction as a concrete test case.
+Open-source backend for turning natural-language inputs into structured data with explicit API contracts, schema-constrained extraction, and runtime checks around model outputs.
 
-- FastAPI `/generate` and `/extract` services
-- Sync and async extraction workflows
-- Reproducible checks for successful and blocked extraction paths
-- Prometheus-backed observability and trace inspection
+Includes generate and extract services, sync and async extraction workflows, policy gates, Prometheus metrics, trace inspection, and reproducible runtime artifacts.
 
 Repository:
 https://github.com/chranama/llm-extraction-platform
 
 ### Inference Serving Gateway
 
-Go gateway that gives AI product APIs a controlled service boundary in front of upstream inference backends.
+Go gateway for placing a controlled service boundary in front of upstream inference backends.
 
-- Health/readiness checks, metrics, sync/async extraction, and job-status endpoints
-- Request limits, timeouts, structured errors, Prometheus metrics, and trace propagation
+Includes health and readiness checks, metrics, sync and async extraction forwarding, job-status polling, request limits, timeouts, structured edge errors, and trace propagation.
 
 Repository:
 https://github.com/chranama/inference-serving-gateway
 
 ### BioLLM-Finetune
 
-Biomedical QA evaluation system that helps researchers compare model behavior across clean and perturbed inputs.
+Biomedical QA evaluation workflow for comparing model behavior across clean and perturbed inputs.
 
-- Fixed-seed robustness analysis
-- Phenotype-conditioned aggregation
-- Integrity validation and scripted report artifacts
+Includes fixed-seed robustness analysis, phenotype-conditioned aggregation, saved experiment artifacts, evidence validation, and scripted report outputs.
 
 Repository:
 https://github.com/chranama/biollm-finetune
 
-
 ### California-Portugal Climate Pipeline
 
-Warehouse-first climate data and ML platform for comparing weather patterns across California and Portugal.
+Local data and machine learning pipeline for comparing historical weather patterns across California and Portugal.
 
-- DuckDB warehouse, layered dbt transforms, and Prefect orchestration
-- Tested anomaly features, persisted metrics, and dashboard-ready outputs
+Includes Open-Meteo ingestion, DuckDB warehouse models, layered dbt transforms, Prefect orchestration, anomaly features, baseline model metrics, and dashboard-ready outputs.
 
 Repository:
 https://github.com/chranama/california-portugal-climate
 
+## Skills
+
+- Python, Go, TypeScript/React, SQL/Postgres
+- FastAPI, REST APIs, async workflows, structured errors
+- Docker, Kubernetes, Redis, Linux, CI/CD
+- LLM evaluation, schema-constrained extraction, model behavior analysis
+- Prometheus/Grafana, trace inspection, reproducible runtime artifacts
 
 ## Academic Background
 
-- Master's degree in Data Science, University of Lisbon (Portugal), 2025
-- Master's degree in Mathematics, University of Valencia (Spain), 2016
-- Bachelor's of Arts in Astronomy, University of Colorado Boulder, 2013
+- MSc in Data Science, University of Lisbon (Portugal), 2025 ([Thesis PDF](https://chranama.github.io/masters_thesis.pdf))
+- MSc in Mathematics, University of Valencia (Spain), 2016
+- BA in Astronomy, University of Colorado Boulder, 2013
+
+## Contact
+
+- Email: chris.anaya.ai@gmail.com
 
 ## Links
 
 - Portfolio: https://chranama.github.io
 - Resume: https://chranama.github.io/resume.pdf
+- GitHub: https://github.com/chranama
 - LinkedIn: https://www.linkedin.com/in/chris-anaya-ai/
